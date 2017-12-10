@@ -1,0 +1,10 @@
+= EMDR metronome
+
+== Context
+
+A simple tool to produce left/right sounds on a given tempo.
+
+== Help
+
+* https://www.html5rocks.com/en/tutorials/audio/scheduling/
+* https://github.com/cwilso/metronome/blob/master/js/metronome.js
