@@ -5,10 +5,19 @@ body {
 }
 
 body {
-  align-items: center;
+  align-items: stretch;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
+
+@media (min-width: 700px) {
+  body {
+    align-items: center;
+    flex-direction: row;
+  }
+}
+
 
 span,
 button {
@@ -34,6 +43,7 @@ button.active {
 
 span {
   font-weight: bold;
+  text-align: center;
 }
 
 #startStop.is-playing {
